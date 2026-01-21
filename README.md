@@ -1,4 +1,4 @@
-# DenoisingPAUS
+# Denoising PAUS image with PN2V.
 This is a project I did in my PhD, I denoised PAUS images with a network called PN2V, I did some modifications in the network. 
 
 Probabilistic Noise2Void (PN2V) is available at: https://github.com/juglab/pn2v. There are some denoising examples.
