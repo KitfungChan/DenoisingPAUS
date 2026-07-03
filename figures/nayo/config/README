@@ -1,0 +1,3 @@
+Precalculated aperture scalings. This caching is done since the
+current estimate is too slow. Storing this as a configuration is
+not ideal. Hopefully someone can fix this part.
