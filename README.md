@@ -1,11 +1,46 @@
-The project for the paper "The PAU survey: Self-supervised image denoising and photometry" Chen et al. (in prep)
+# The PAU survey: Self-supervised image denoising and photometry
 
-We tested the Probabilistic Noise2Void (PN2V), the PN2V implementation is available at https://github.com/juglab/pn2v. According to the PN2V paper (https://arxiv.org/abs/1906.00651), PN2V provides the same functionality as N2V but without requiring an explicit noise model. We implement N2V using the PN2V package. Our proposed model, LoRA-N2V, is built on top of N2V by integrating LoRA adapters.
+This repository contains the project associated with the paper:
 
-The simulation pipeline in the project is in another repository from our group: https://github.com/marberi/Flagship4ML.
+**“The PAU survey: Self-supervised image denoising and photometry”**  
+Chen et al. (in prep.)
 
-The PAUS images necessary to reproduce the results in this repository, is publicly available. You can access the data via the official https://pausurvey.org/public-data-release/.
+## Denoising models
 
-The simulations used in Appendix C are generated using the noiseless fluxes from the "Flagship-PAU" catalogue in CosmoHub, which is currently internal to the PAUS collaboration and is not publicly available.
+We tested **Probabilistic Noise2Void (PN2V)** using the public PN2V implementation:
 
-Since denoising the images is time-consuming, we save the denoised galaxy fluxes and the aperture fluxes in csv files and the simulation images in npy files. Both these data files and the trained models are publicly available on Zenodo. Download the files and unzip them into the corresponding folder. Description of the data and models is in the README.md in the zenodo.
+● PN2V repository: <https://github.com/juglab/pn2v>
+● PN2V paper: <https://arxiv.org/abs/1906.00651>
+
+In this project, we implement **Noise2Void (N2V)** using the PN2V package. Our proposed model, **LoRA-N2V**, is built on top of N2V by integrating **LoRA adapters**.
+
+## Simulation pipeline
+
+The simulation pipeline used in this project is maintained in a separate repository from our group:
+
+● Flagship4ML: <https://github.com/marberi/Flagship4ML>
+
+## PAUS data
+
+The PAUS images required to reproduce the results in this repository are publicly available through the official PAUS public data release:
+
+● PAUS public data release: <https://pausurvey.org/public-data-release/>
+
+## Additional data and trained models
+
+Denoising the PAUS images is time-consuming. For convenience, we provide precomputed data products, including:
+
+● denoised galaxy fluxes,
+● aperture fluxes,
+● simulation images,
+● trained models.
+
+The denoised fluxes and aperture fluxes are stored as CSV files, while the simulation images are stored as NPY files. These files, together with the trained models, are available on Zenodo:
+
+● Zenodo record: <https://zenodo.org/records/21135549>
+
+After downloading the files, unzip them into the corresponding folders in this repository.
+
+## Non-public simulation inputs
+
+The simulations used in Appendix C are generated using noiseless fluxes from the **Flagship-PAU** catalogue in CosmoHub. This catalogue is currently internal to the PAUS collaboration and is not publicly available.
