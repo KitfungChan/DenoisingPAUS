@@ -8,4 +8,4 @@ The PAUS images necessary to reproduce the results in this repository, is public
 
 The simulations used in Appendix C are generated using the noiseless fluxes from the "Flagship-PAU" catalogue in CosmoHub, which is currently internal to the PAUS collaboration and is not publicly available.
 
-Since denoising the images is time-consuming, we save the denoised galaxy fluxes and the aperture fluxes in CSV files and the simulation images in NPY files. Both these data files and the trained models are publicly available on Zenodo. Download the files and unzip them into the corresponding folder. Description of the data and models is in the README.md in the zenodo.
+Since denoising the images is time-consuming, we save the denoised galaxy fluxes and the aperture fluxes in CSV files and the simulation images in npy files. Both these data files and the trained models are publicly available on Zenodo. Download the files and unzip them into the corresponding folder. Description of the data and models is in the README.md in the zenodo.
