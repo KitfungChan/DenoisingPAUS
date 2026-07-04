@@ -10,6 +10,7 @@ Chen et al. (in prep.)
 We tested **Probabilistic Noise2Void (PN2V)** using the public PN2V implementation:
 
 ● PN2V repository: <https://github.com/juglab/pn2v>
+
 ● PN2V paper: <https://arxiv.org/abs/1906.00651>
 
 In this project, we implement **Noise2Void (N2V)** using the PN2V package. Our proposed model, **LoRA-N2V**, is built on top of N2V by integrating **LoRA adapters**.
@@ -30,10 +31,13 @@ The PAUS images required to reproduce the results in this repository are publicl
 
 Denoising the PAUS images is time-consuming. For convenience, we provide precomputed data products, including:
 
-● denoised galaxy fluxes,
-● aperture fluxes,
-● simulation images,
-● trained models.
+● denoised galaxy fluxes
+
+● aperture fluxes
+
+● simulation images
+
+● trained models
 
 The denoised fluxes and aperture fluxes are stored as CSV files, while the simulation images are stored as NPY files. These files, together with the trained models, are available on Zenodo:
 
