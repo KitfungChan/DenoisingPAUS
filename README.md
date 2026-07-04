@@ -2,8 +2,7 @@
 
 This repository contains the project associated with the paper:
 
-**“The PAU survey: Self-supervised image denoising and photometry”**  
-Chen et al. (in prep.)
+**“The PAU survey: Self-supervised image denoising and photometry”** Chen et al. (in prep.)
 
 ## Denoising models
 
