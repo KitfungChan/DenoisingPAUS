@@ -47,7 +47,7 @@ The denoised fluxes and aperture fluxes are stored as CSV files, while the simul
 
 ● Zenodo record: https://zenodo.org/records/21197885
 
-After downloading the files, unzip them into the corresponding folders in this repository.
+After downloading the files, unzip them into the corresponding folders ('data saved' and 'model saved') in this repository.
 
 ## Non-public simulation inputs
 
