@@ -49,7 +49,7 @@ Denoising the PAUS images is time-consuming. For convenience, we provide precomp
 
 The denoised fluxes and aperture fluxes are stored as CSV files, while the simulation images are stored as NPY files. These files, together with the trained models, are available on Zenodo (The descriptions and details of the files are in the README.md in the zenodo):
 
-● Zenodo record: https://zenodo.org/records/21197885
+● Zenodo record: https://doi.org/10.5281/zenodo.21197885
 
 After downloading the files, unzip them into the corresponding folders ('data saved' and 'model saved') in this repository.
 
