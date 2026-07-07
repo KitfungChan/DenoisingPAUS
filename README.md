@@ -1,8 +1,7 @@
 # The PAU survey: Self-supervised image denoising and photometry
 
-This repository contains the project associated with the paper:
+This repository contains the project associated with the paper: **“The PAU survey: Self-supervised image denoising and photometry”** Chen et al. (in prep.). It implements the training pipelines for N2V, PN2V, and LoRA-N2V, and includes evaluation scripts for $df$ and flux ratio analysis.
 
-**“The PAU survey: Self-supervised image denoising and photometry”** Chen et al. (in prep.)
 
 ## Denoising models
 
